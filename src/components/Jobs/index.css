@@ -1,0 +1,114 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  border-radius: 8px;
+  margin: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.jobs-container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  border-radius: 8px;
+  margin: 10px;
+  text-decoration: none;
+  list-style: none;
+  width: 60vw;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    width: 90vw;
+  }
+  .jobs-container {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .jobs-container {
+    align-self: center;
+  }
+  .line {
+    width: 90vw;
+  }
+  .font-icons {
+    display: flex;
+  }
+}
+.card1 {
+  display: flex;
+}
+.title {
+  color: white;
+  font-weight: 500;
+}
+.rating-icon {
+  color: gold;
+  align-self: center;
+  margin-right: 10px;
+}
+.font1 {
+  display: flex;
+  height: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.rating {
+  color: white;
+  font-weight: 500;
+  align-self: center;
+}
+.location-icon {
+  color: white;
+  align-self: center;
+  margin-right: 10px;
+}
+.internship-icon {
+  color: aliceblue;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.package {
+  color: white;
+  font-weight: 500;
+  padding-right: 20px;
+}
+.font-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+  align-self: center;
+}
+.image-logo {
+  height: 60px;
+  width: 60px;
+  align-self: center;
+  margin-right: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.description {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.line {
+  color: white;
+  border-style: groove;
+}
+.des {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+}
+.link-item {
+  text-decoration: none;
+}

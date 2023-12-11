@@ -1,0 +1,30 @@
+.similar-job-container {
+  margin: 10px;
+  border-width: 2px;
+  border-color: white;
+  border-style: groove;
+  border-radius: 10px;
+  list-style: none;
+}
+.similar-description {
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  padding-left: 20px;
+}
+.font-icons2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 426px) {
+  .similar-job-container {
+    width: 350px;
+  }
+}
+@media screen and (width: 768px) {
+  .similar-job-container {
+    width: 300px;
+  }
+}

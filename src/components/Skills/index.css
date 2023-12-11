@@ -1,0 +1,26 @@
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.skill-image {
+  height: 50px;
+  width: 50px;
+}
+
+.skill-head {
+  color: white;
+  font-size: 15px;
+}
+@media screen and (max-width: 426px) {
+  .skill-head {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .skill-card {
+    margin: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+.life-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.life-para {
+  color: white;
+  padding-left: 20px;
+}
+.head {
+  color: white;
+  font-size: 23px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.lifeImage {
+  width: 250px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 426px) {
+  .life-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .lifeImage {
+    align-self: center;
+  }
+}
